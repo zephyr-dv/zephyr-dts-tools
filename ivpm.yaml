@@ -1,0 +1,21 @@
+
+package:
+    name: zephyr-dts-tools
+    version: 0.0.1
+
+    deps:
+        - name: devicetree
+          src: pypi
+        - name: vte
+          src: pypi
+        - name: pcpp
+          src: pypi
+    dev-deps:
+        - name: devicetree
+          src: pypi
+        - name: pcpp
+          src: pypi
+        - name: vte
+          url: https://github.com/fvutils/vte.git
+
+
